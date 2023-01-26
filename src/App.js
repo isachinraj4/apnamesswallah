@@ -1,14 +1,14 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import About from './components/About';
+// import About from './components/About';
 import React, { useState } from 'react'
 import Alert from './components/Alert';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from "react-router-dom";
 
 
 
@@ -39,7 +39,13 @@ function App() {
   }
   return (
     <>
-      <Router>
+
+      <Navbar title = "ApnaMessWallah" aboutText = "About us" feedback = "Feedback" mode={mode} toggleMode = {toggleMode} />
+      <Alert alert = {alert}/>
+      <div className="container my-3">
+        <TextForm heading = "Please provide your feedback" mode = {mode} showAlert= {showAlert}/>
+      </div>
+      {/* <Router>
         <Navbar title = "ApnaMessWallah" aboutText = "About us" feedback = "Feedback" mode={mode} toggleMode = {toggleMode} />
         <Alert alert = {alert}/>
         <div className="container my-3">
@@ -49,7 +55,7 @@ function App() {
             <Route exach path='/about'element = {<About mode = {mode}/>}/>
           </Routes>
         </div> 
-      </Router>
+      </Router> */}
     </>
   );
 }
