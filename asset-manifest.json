@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/apnamesswallah/static/css/main.073c9b0a.css",
+    "main.js": "/apnamesswallah/static/js/main.f7879795.js",
+    "static/js/787.27581725.chunk.js": "/apnamesswallah/static/js/787.27581725.chunk.js",
+    "index.html": "/apnamesswallah/index.html",
+    "main.073c9b0a.css.map": "/apnamesswallah/static/css/main.073c9b0a.css.map",
+    "main.f7879795.js.map": "/apnamesswallah/static/js/main.f7879795.js.map",
+    "787.27581725.chunk.js.map": "/apnamesswallah/static/js/787.27581725.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f7879795.js"
+  ]
+}
